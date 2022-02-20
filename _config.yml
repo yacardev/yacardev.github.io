@@ -6,118 +6,256 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Matias Lujan
+title: Software Developer
+#email: matias.exe.lujan@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+#phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+website: yacardev.me
+website_title: #Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: jekyllrb
+github_username:  yacardev
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: matiasexelujan
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Abrir Curriculum Vitae
+  icon: fas fa-file-pdf
+  url: yacardev.github.io/src/CV_Matias Lujan_2022_ESP.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+gtm: "GTM-N2898W6"
+gtag: "G-VQETK93959"
+google_analytics: "G-VQETK93959"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+#about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile/profile-pic.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Correntino viviendo en Capital Federal. De apodo *yacaré*.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Actualmente me desempeño como Technical Owner del producto Gestiones on-line utilizado por los socios de la Obra Social OSDE. Entre otras cosas realizo tareas de coordinación del equipo técnico en la evolución 
+  y mantenimiento del producto, priorización de la demanda técnica, nexo con otros equipos de los cuales se requiere colaboración, 
+  diseño técnico de la solución en base a los requerimientos funcionales, coordinación de las implementaciones del producto. 
+  El stack tecnológico es .NET, ASP para el frontend y Java 1.8 para el backend.
+  
+  Anteriormente me desempeñé como Software Developer/Analista técnico para el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
+  a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
+  Oracle: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle APEX, 
+  OTBI/OBIEE ERP Cloud, entre otras.
 
+  Siempre interesado en el desarrollo del lado del backend. Realicé cursos de NodeJS con el framework Express y actualmente 
+  ejercitando Java Spring boot y Quarkus.  
+  
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+  #- title: Projects # Title for the section
+  #  layout: list # Type of content section (list/text)
+  #  content:
+  #    - layout: left
+  #      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #                    # other value (or no value) means no border will be displayed
+  #      title: Project name
+  #      link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #      link_text: Link Text
+  #      additional_links:
+  #        - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #          icon: fab fa-github
+  #          url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #        - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #          icon: fab fa-github
+  #          url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #      quote: >
+  #        Short overview of the project (optional)
+  #      description: | # this will include new lines to allow paragraphs
+  #        Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: OSDE
+        sub_title: Technical Owner <p>Software Developer</p>      
+        caption: Octubre 2021 - Actual
+        link: www.osde.com.ar
+        #quote: >
+          
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          SCRUM como metodología ágil de trabajo
+
+          Git. Implementando CI/CD
+          
+          SQL Server
+
+          El Stack de las aplicaciones es: 
+          
+          - Frontend: .NET en servidores IIS. 
+          
+          - Backend: servicios con Java 7 y 8, Spring Framework, JPA, JAX-RS, JAX-WS, Maven en servidores Jboss
+      - layout: left
+        title: Witbor Argentina S.R.L
+        sub_title: Software Developer
+        caption: Octubre 2020 / Septiembre 2021
+        link: www.witbor.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Technical Consulting
+          
+          Estuve asignado a los clientes: Adecoagro, Red Link, TyC Sports, TATA (UY), WOM (Colombia) En su mayoría con la versión Oracle ERP Cloud
+          
+          - Soporte técnico en las distintas mesas de ayuda
+          
+          - Desarrollo de reportes con OTBI/OBIEE Cloud. Analytics, Dashboards, Infolets, Reports
+      - layout: left
+        title: ExtendIT Consulting
+        sub_title: Software Developer
+        caption: Junio 2020 / Octubre 2020
+        link: www.extendit.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Technical Consulting
+          
+          - Asignado al cliente Newsan S.A en proyecto de integración para los módulos AP/Comex entre la herramienta FUSE y el sistema de Aduana SIDOM
+      - layout: left
+        title: Garbarino S.A
+        sub_title: Software Developer
+        caption: Julio 2017 / Mayo 2020
+        link: www.garbarino.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Software Developer
+          
+          - Staff interno del equipo de desarrollo para la aplicación Oracle E-Business Suite R-12
+      - layout: left
+        title: Axon Group Consulting
+        sub_title: Software Developer
+        caption: Octubre 2014 / Septiembre 2017
+        #link: www.garbarino.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Technical Consulting
+          
+          - Asignación full-time al equipo de desarrollo de Oracle E-Business Suite en el cliente Garbarino S.A
+      - layout: left
+        title: Oracle Consulting Argentina
+        sub_title: Software Developer
+        caption: Octubre 2014 / Septiembre 2017
+        link: www.oracle.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Staff Developer Oracle E-Business Suite
+          
+          - Algunos de los clientes en los que estuve asignado: PepsiCo, Mc Donald’s (Arcos Dorados), Garbarino SA, Cablevisión, Bodegas Salentein, ArPOV, Sherwin Williams, DirecTV, Despegar.com (Argentina y Uruguay), NexTel, Air Liquide
+      - layout: left
+        title: Freelancer
+        sub_title: Web Developer
+        caption: 2009 / 2010
+        #link: www.oracle.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Proyecto: “INTA - DBGermoWeb”
+          
+          - Aplicación para la documentación de recursos genéticos vegetales
+          
+          - Desarrollo de módulos del sistema utilizando HTML, PHP5, JavaScript, CSS, MySQL
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: left
+        title: Universidad Nacional del Nordeste
+        sub_title: UNNE. Corrientes, Argentina
+        caption: 2003 - 2010
+        #quote: >
+        #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          Licenciatura en Sistemas de Información
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          Finalizado
+      - layout: left
+        title: Centro Universitario de Idiomas
+        #sub_title: UNNE. Corrientes, Argentina
+        caption: En curso
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Aprobado ciclo de consolidación
+
+          Actualmente realizando el ciclo de Perfeccionamiento     
+  - title: Skills
+    layout: text
+    content: | #
+      - Programación
+        
+        - Laboral en
+          - PL/SQL
+          - Oracle Reports
+          - OAF Java Framework
+          - Oracle APEX
+          - BI Publisher
+          - SQL Oracle, MySQL
+          - OTBI/OBIEE Cloud. Analytics, Dashboards, Infolets, Reports
+          
+        - Autodidacta en
+          - Java Spring boot/Quarkus. NodeJS-Express
+    
+      - Oracle E-Business Suite R11-R12 
+
+         - Interfaces
+         - APIs
+         - Procesos concurrentes
+         - Customizaciones
+         - Configuraciones
+         - Unix commands 
+
+      - IDEs/Applications
+         - Git. SVN
+         - Postman
+         - SoapUI
+         - SQLDeveloper
+         - IntelliJ
+         - Visual Studio Code
+         - Tickets. JIRA
+         - Power BI
+      
+      - Idiomas
+         - Español: Nativo
+         - Inglés
+           - Lectura/Comprensión: alta
+           - Escritura: media
+           - Diálogo: bajo
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+layout: text
+references_title: template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb<a>
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+ #theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+ #remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
