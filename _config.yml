@@ -253,7 +253,7 @@ content:
 # Footer
 footer_show_references: true
 layout: text
-references_title: template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb<a>
+references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb<a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages<a>
 
 # Build settings
  #theme: modern-resume-theme (Use this is you are hosting your resume yourself)
