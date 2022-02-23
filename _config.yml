@@ -189,6 +189,7 @@ content:
         title: Universidad Nacional del Nordeste
         sub_title: UNNE. Corrientes, Argentina
         caption: 2003 - 2010
+        link: exa.unne.edu.ar
         #quote: >
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
@@ -197,7 +198,8 @@ content:
           Finalizado
       - layout: left
         title: Centro Universitario de Idiomas
-        #sub_title: UNNE. Corrientes, Argentina
+        sub_title: CUI
+        link: cui.edu.ar/idioma_ingles.php
         caption: En curso
         #quote: >
         #  Short institution or course description (optional)
