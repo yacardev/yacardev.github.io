@@ -57,7 +57,7 @@ about_content: | # this will include new lines to allow paragraphs
   Actualmente me desempeño como Technical Owner del producto Gestiones on-line utilizado por los socios de la Obra Social OSDE. Entre otras cosas realizo tareas de coordinación del equipo técnico en la evolución 
   y mantenimiento del producto, priorización de la demanda técnica, nexo con otros equipos de los cuales se requiere colaboración, 
   diseño técnico de la solución en base a los requerimientos funcionales, coordinación de las implementaciones del producto. 
-  El stack tecnológico es .NET, ASP para el frontend y Java 1.8 para el backend.
+  El stack tecnológico es HTML, CSS, JavaScript, .NET y Java 1.8 para el backend.
   
   Anteriormente me desempeñé como Software Developer/Analista técnico para el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
   a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
@@ -107,9 +107,9 @@ content:
 
           El Stack de las aplicaciones es: 
           
-          - Frontend: .NET en servidores IIS. 
+          - Frontend: HTML, CSS, JavaScript y.NET en servidores IIS. 
           
-          - Backend: servicios con Java 7 y 8, Spring Framework, JPA, JAX-RS, JAX-WS, Maven en servidores Jboss
+          - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss. Base de datos SQL Server
       - layout: left
         title: Witbor Argentina S.R.L
         sub_title: Software Developer
@@ -139,7 +139,7 @@ content:
       - layout: left
         title: Garbarino S.A
         sub_title: Software Developer
-        caption: Julio 2017 / Mayo 2020
+        caption: Junio 2017 / Mayo 2020
         link: www.garbarino.com
         #quote: >
         #  Short description of the company (optional)
@@ -150,7 +150,7 @@ content:
       - layout: left
         title: Axon Group Consulting
         sub_title: Software Developer
-        caption: Octubre 2014 / Septiembre 2017
+        caption: Octubre 2014 / Mayo 2017
         #link: www.garbarino.com
         #quote: >
         #  Short description of the company (optional)
@@ -161,7 +161,7 @@ content:
       - layout: left
         title: Oracle Consulting Argentina
         sub_title: Software Developer
-        caption: Octubre 2014 / Septiembre 2017
+        caption: Diciembre 2010 / Septiembre 2014
         link: www.oracle.com
         #quote: >
         #  Short description of the company (optional)
@@ -199,7 +199,7 @@ content:
       - layout: left
         title: Centro Universitario de Idiomas
         sub_title: CUI
-        link: cui.edu.ar/idioma_ingles.php
+        link: cui.edu.ar/idioma.php?id=12
         caption: En curso
         #quote: >
         #  Short institution or course description (optional)
