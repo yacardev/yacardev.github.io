@@ -107,7 +107,7 @@ content:
 
           El Stack de las aplicaciones es: 
           
-          - Frontend: HTML, CSS, JavaScript y.NET en servidores IIS. 
+          - Frontend: HTML, CSS, JavaScript y .NET en servidores IIS. 
           
           - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss. Base de datos SQL Server
       - layout: left
