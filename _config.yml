@@ -54,18 +54,16 @@ about_profile_image: images/profile/profile-pic.JPG
 about_content: | # this will include new lines to allow paragraphs
   Correntino viviendo en Capital Federal. De apodo *yacaré*.
 
-  Actualmente me desempeño como Technical Owner del producto Gestiones on-line utilizado por los socios de la Obra Social OSDE. Entre otras cosas realizo tareas de coordinación del equipo técnico en la evolución 
-  y mantenimiento del producto, priorización de la demanda técnica, nexo con otros equipos de los cuales se requiere colaboración, 
-  diseño técnico de la solución en base a los requerimientos funcionales, coordinación de las implementaciones del producto. 
-  El stack tecnológico es HTML, CSS, JavaScript, .NET y Java 1.8 para el backend.
+  Interes en el desarrollo de backend e infraestructura. 
   
-  Anteriormente me desempeñé como Software Developer/Analista técnico para el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
-  a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
-  Oracle: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle APEX, 
-  OTBI/OBIEE ERP Cloud, entre otras.
 
-  Siempre interesado en el desarrollo del lado del backend. Realicé cursos de NodeJS con el framework Express y actualmente 
-  ejercitando Java Spring boot y Quarkus.  
+  Realicé cursos de NodeJS con el framework Express y actualmente ejercitando Java Spring boot y Quarkus.  
+
+  Mayormente me desempeñé como Software Developer en el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
+  a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
+  Oracle. 
+
+  
   
 content:
   #- title: Projects # Title for the section
@@ -92,24 +90,35 @@ content:
     layout: list
     content:
       - layout: left
+        title: Despegar
+        sub_title: Software Developer
+        caption: Octubre 2022 / Actual
+        link: www.despegar.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Software Developer
+
+          - Stack de tecnologías: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle APEX, entre otras.
+      - layout: left
         title: OSDE
         sub_title: Technical Owner <p>Software Developer</p>      
-        caption: Octubre 2021 - Actual
+        caption: Octubre 2021 - Junio 2022
         link: www.osde.com.ar
         #quote: >
           
         description: | # this will include new lines to allow paragraphs
-          SCRUM como metodología ágil de trabajo
-
-          Git. Implementando CI/CD
+          Me desempeñe como Technical Owner del producto Gestiones on-line utilizado por los socios de la obra social. 
+          Entre otras cosas realicé tareas de coordinación del equipo técnico en la evolución y mantenimiento del producto, 
+          priorización de la demanda técnica, nexo con otros equipos de los cuales se requirió colaboración, 
+          diseño técnico de la solución en base a los requerimientos funcionales, coordinación de las implementaciones del producto.
           
-          SQL Server
-
-          El Stack de las aplicaciones es: 
           
+          - SCRUM como metodología ágil de trabajo
+          - GitLab, CI/CD.          
+          - SQL Server
           - Frontend: HTML, CSS, JavaScript y .NET en servidores IIS. 
-          
-          - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss. Base de datos SQL Server
+          - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss.
       - layout: left
         title: Witbor Argentina S.R.L
         sub_title: Software Developer
