@@ -54,14 +54,15 @@ about_profile_image: images/profile/profile-pic.JPG
 about_content: | # this will include new lines to allow paragraphs
   Correntino viviendo en Capital Federal. De apodo *yacaré*.
 
-  Interes en el desarrollo de backend e infraestructura. 
-  
-
-  Realicé cursos de NodeJS con el framework Express y actualmente ejercitando Java Spring boot y Quarkus.  
-
   Mayormente me desempeñé como Software Developer en el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
   a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
   Oracle. 
+
+  Además de la programación backend me interesa la arquitectura e infraestructura de aplicaciones.
+  
+  Actualmente ejercitando Java Spring Boot y Quarkus. Realicé cursos de NodeJS con el framework Express.
+
+  
 
   
   
