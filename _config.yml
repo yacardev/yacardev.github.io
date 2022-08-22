@@ -12,7 +12,7 @@ title: Software Developer
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: yacardev.me
+website: matiaslujan.vercel.app
 website_title: #Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -101,6 +101,8 @@ content:
           Oracle E-Business Suite Software Developer
 
           - Stack de tecnologías: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle APEX, entre otras.
+          - Participando de la implementación del software Tableau y el bot Automation Anywhere 360.
+          
       - layout: left
         title: OSDE
         sub_title: Technical Owner <p>Software Developer</p>      
