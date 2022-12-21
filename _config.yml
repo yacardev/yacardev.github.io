@@ -216,9 +216,8 @@ content:
         #quote: >
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Aprobado ciclo de consolidación
-
-          Actualmente realizando el ciclo de Perfeccionamiento     
+          Aprobado ciclo de Perfeccionamiento (B2+)
+    
   - title: Skills
     layout: text
     content: | #
@@ -260,7 +259,7 @@ content:
          - Inglés
            - Lectura/Comprensión: alta
            - Escritura: media
-           - Diálogo: bajo
+           - Diálogo: media
 
 # Footer
 footer_show_references: true
