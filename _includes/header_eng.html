@@ -7,8 +7,8 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
             <ul class="icons no-print">
                 <li>
-                    <a target="_self" href="index_eng" class="button button--sacnite button--round-l">
-                        <i class="fas fa-solid fa-globe" title="English"></i>
+                    <a target="_self" href="/" class="button button--sacnite button--round-l">
+                        <i class="fas fa-solid fa-globe" title="Español"></i>
                     </a>
                 </li>
                 {%- if site.dribbble_username -%}
@@ -89,10 +89,10 @@
                         <i class="fab fa-google" title="Google scholar link"></i>
                     </a>
                 </li>
-                {%- endif -%} {% for link in site.additional_links %}
+                {%- endif -%} {% for link in site.additional_links_eng %}
                 <li>
-                    {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-                    <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+                    {% include a.html href=link.url_eng class="button button--sacnite button--round-l" %}
+                    <i class="{{ link.icon_eng }}" title="{{ link.title_eng | escape }}"></i>
                     </a>
                 </li>
                 {% endfor %}

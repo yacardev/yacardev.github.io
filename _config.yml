@@ -33,14 +33,26 @@ linkedin_username: matiasexelujan
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
 
+
 # Additional icon links
 additional_links:
 - title: Abrir Curriculum Vitae
   icon: fas fa-file-pdf
-  url: yacardev.github.io/src/CV_Matias_Lujan_2022.pdf
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+  url: yacardev.github.io/src/CV_Matias_Lujan_ESP.pdf
+
+additional_links_eng:
+- title_eng: Open CV
+  icon_eng: fas fa-file-pdf
+  url_eng: yacardev.github.io/src/CV_Matias_Lujan_ENG.pdf
+
+language: language
+
+#- title_eng: Open CV
+#  icon_eng: fas fa-file-pdf
+#  url_eng: yacardev.github.io/src/CV_Matias_Lujan_2023_EN.pdf 
+#- title_eng: Español
+#  icon_eng: fas fa-solid fa-globe
+#  url_eng: localhost:4000 
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -48,11 +60,11 @@ gtm: "GTM-N2898W6"
 gtag: "G-VQETK93959"
 google_analytics: "G-VQETK93959"
 
-# About Section
-#about_title: About Me (Use this to override about section title)
+# About Section ESP
+about_title: Acerca de Mí
 about_profile_image: images/profile/profile-pic.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Correntino viviendo en Capital Federal. De apodo *yacaré*.
+  Licenciado en Sistemas de Información.
 
   Mayormente me desempeñé como Software Developer en el ERP Oracle E-Business en sus versiones R11, R12, ERP Cloud en donde obtuve experiencia en la realización de procesos 
   a medida analizando las necesidades del cliente/usuario y utilizando el stack para aplicaciones 
@@ -60,12 +72,29 @@ about_content: | # this will include new lines to allow paragraphs
 
   Además de la programación backend me interesa la arquitectura e infraestructura de aplicaciones.
   
-  Actualmente ejercitando Java Spring Boot y Quarkus. Realicé cursos de NodeJS con el framework Express.
+  Actualmente ejercitando Java Spring Boot. Realicé cursos de NodeJS con el framework Express.
 
   
+# About Section EN
+about_title_eng: About Me
+about_profile_image: images/profile/profile-pic.JPG
+about_content_eng: | # this will include new lines to allow paragraphs
+  Computer Science Degreed.
 
+  I have been working as a ERP Oracle E-Business Software Developer since 2010. 
+
+  I have experience in both R12 and Cloud versions. During this time I have been developing and maintaining new and existing Oracle based applications such us concurrent request processes, OAF pages, configurations, personalizations, performance and so on which were defined to meet customers requirements and necessities.
   
+  Furthermore, I am not only interested in Oracle's technologies stack. Consequently, I am a self-learning of Java Spring boot. 
   
+  I prefer to be in touch with the backend development.
+
+# Footer
+footer_show_references: true
+layout: text
+references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
+
+#Spanish Page
 content:
   #- title: Projects # Title for the section
   #  layout: list # Type of content section (list/text)
@@ -87,21 +116,21 @@ content:
   #        Short overview of the project (optional)
   #      description: | # this will include new lines to allow paragraphs
   #        Description about the work on/with the project
-  - title: Experience
+  - title: Experiencia
     layout: list
     content:
       - layout: left
         title: Despegar
         sub_title: Software Developer
-        caption: Octubre 2022 / Actual
+        caption: Junio 2022 / Actual
         link: www.despegar.com
         #quote: >
         #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Oracle E-Business Suite Software Developer
 
-          - Stack de tecnologías: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle APEX, entre otras.
-          - Participando de la implementación del software Tableau y el bot Automation Anywhere 360.
+          - Stack de tecnologías: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, entre otras
+          - Administracion del bot Automation Anywhere 360
           
       - layout: left
         title: OSDE
@@ -118,10 +147,11 @@ content:
           
           
           - SCRUM como metodología ágil de trabajo
-          - GitLab, CI/CD.          
+          - GitLab, CI/CD          
           - SQL Server
-          - Frontend: HTML, CSS, JavaScript y .NET en servidores IIS. 
-          - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss.
+          - Frontend: HTML, CSS, JavaScript y .NET en servidores IIS 
+          - Backend: servicios con Java 8, JPA, JAX-RS, JAX-WS. Maven como gestor de Proyectos. Servidores Jboss
+
       - layout: left
         title: Witbor Argentina S.R.L
         sub_title: Software Developer
@@ -194,7 +224,7 @@ content:
           - Aplicación para la documentación de recursos genéticos vegetales
           
           - Desarrollo de módulos del sistema utilizando HTML, PHP5, JavaScript, CSS, MySQL
-  - title: Education
+  - title: Educación
     layout: list
     content:
       - layout: left
@@ -207,19 +237,18 @@ content:
         description: | # this will include new lines to allow paragraphs
           Licenciatura en Sistemas de Información
 
-          Finalizado
+          Recibido
       - layout: left
-        title: Centro Universitario de Idiomas
-        sub_title: CUI
+        title: Curso de Inglés
+        sub_title: Centro Universitario de Idiomas
         link: cui.edu.ar/idioma.php?id=12
-        caption: En curso
+        caption: 
         #quote: >
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Aprobado ciclo de consolidación
-
-          Actualmente realizando el ciclo de Perfeccionamiento     
-  - title: Skills
+          Aprobado ciclo de Perfeccionamiento (B2+)
+    
+  - title: Habilidades
     layout: text
     content: | #
       - Programación
@@ -231,21 +260,18 @@ content:
           - Oracle APEX
           - BI Publisher
           - SQL Oracle, MySQL
-          - OTBI/OBIEE Cloud. Analytics, Dashboards, Infolets, Reports
-          
-        - Autodidacta en
-          - Java Spring boot/Quarkus. NodeJS-Express
-    
-      - Oracle E-Business Suite R11-R12 
+          - Oracle Cloud: OTBI/OBIEE. Analytics, Dashboards, Infolets, Reports
+          - Oracle E-Business Suite R11-R12 
+            - Interfaces
+            - APIs
+            - Procesos concurrentes
+            - Customizaciones
+            - Configuraciones
+            - Unix commands 
+          - Autodidacta en
+            - Java Spring boot. NodeJS-Express
 
-         - Interfaces
-         - APIs
-         - Procesos concurrentes
-         - Customizaciones
-         - Configuraciones
-         - Unix commands 
-
-      - IDEs/Applications
+      - IDEs/Tools
          - Git. SVN
          - Postman
          - SoapUI
@@ -260,12 +286,172 @@ content:
          - Inglés
            - Lectura/Comprensión: alta
            - Escritura: media
-           - Diálogo: bajo
+           - Diálogo: media
 
-# Footer
-footer_show_references: true
-layout: text
-references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
+#English Page
+content_eng:
+  - title: Experience
+    layout: list
+    content_eng:
+      - layout: left
+        title: Despegar
+        sub_title: Software Developer
+        caption: June 2022 / Actual
+        link: www.despegar.com
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Software Developer
+
+          - SR EBS Developer: PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher
+          - EBS R12.1.3
+          - Administration tasks on VMs that execute the Automation Anywhere 360 bot
+
+      - layout: left
+        title: OSDE
+        sub_title: Technical Owner <p>Software Developer</p>      
+        caption: October 2021 - June 2022
+        link: www.osde.com.ar
+        #quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Worked with SCRUM methodologic. 
+          - Git. CI/CD Implementation
+          - Technology stack: 
+            - Frontend .NET with IIS servers 
+            - Backend services in Java 8, JPA, JAX-RS,  JAX-WS. Maven. JBOSS servers. MS SQL Server data base
+          
+      - layout: left
+        title: Witbor Argentina S.R.L
+        sub_title: Software Developer
+        caption: October 2020 / September 2021
+        link: www.witbor.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Technical Consulting
+          
+          - I worked in different clients as: Adecoagro, Red Link, TyC Sports, TATA (UY), WOM (Colombia)
+          - Mostly with Oracle ERP Cloud and R12.2. 
+          - PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher
+          - OTBI/OBIEE Cloud. Analytics, Dashboards, Infolets, Reports
+
+      - layout: left
+        title: ExtendIT Consulting
+        sub_title: Software Developer
+        caption: June 2020 / October 2020
+        link: www.extendit.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Technical Consulting
+          
+          - I worked for the client: Newsan S.A. 
+          - Project: integration between AP/Comex modules to FUSE and SIDOM external applications
+
+      - layout: left
+        title: Garbarino S.A
+        sub_title: Software Developer
+        caption: June 2017 / May 2020
+        link: www.garbarino.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Software Developer
+          
+          - Staff Oracle E-Business Suite Developer.
+          - R12.1.3
+          - PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher, Oracle Apex
+
+      - layout: left
+        title: Axon Group Consulting
+        sub_title: Software Developer
+        caption: October 2014 / May 2017
+        #link: www.garbarino.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Oracle E-Business Suite Software Developer
+          
+          - Staff Oracle E-Business Suite Developer
+          - R-12.1.3. Client: Garbarino S.A
+          - PL/SQL, Reports, Forms, JDeveloper, OAF Java Framework, Bi Publisher
+
+      - layout: left
+        title: Oracle Consulting Argentina
+        sub_title: Software Developer
+        caption: December 2010 / September 2014
+        link: www.oracle.com
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Staff Oracle E-Business Suite Software Developer
+          
+          - Staff Oracle E-Business Suite Developer
+          - Mostly worked in R-12.1.3
+          - Clients: PepsiCo, Mc Donald's (Arcos Dorados), Garbarino SA, Cablevisión, Bodegas Salentein, ArPOV, Sherwin Williams, DirecTV, Despegar.com, NexTel, Air Liquide
+  
+  - title: Education
+    layout: list
+    content_eng:
+      - layout: left
+        title: University
+        sub_title: Universidad Nacional del Nordeste. Corrientes, Argentina
+        caption: 2003 - 2010
+        link: exa.unne.edu.ar
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Computer Science
+
+          Degreed
+      - layout: left
+        title: English course
+        sub_title: Centro Universitario de Idiomas
+        link: cui.edu.ar/idioma.php?id=12
+        caption: 
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Completed B2+ level
+  
+  - title: Skills
+    layout: text
+    content_eng: | #
+      - Programming languagues
+        
+        - Work experience
+          - PL/SQL
+          - Oracle Reports
+          - OAF Java Framework
+          - Oracle APEX
+          - BI Publisher
+          - SQL Oracle, MySQL
+          - Oracle Cloud: OTBI/OBIEE. Analytics, Dashboards, Infolets, Reports
+          - Oracle E-Business Suite R11-R12 
+            - Interfaces
+            - APIs
+            - Concurrent Programs
+            - Personalizations
+            - Configurations
+            - Unix commands 
+          - Self-learning
+            - Java Spring boot. NodeJS-Express
+
+      - IDEs/Tools
+         - Git. SVN
+         - Postman
+         - SoapUI
+         - SQLDeveloper
+         - IntelliJ
+         - Visual Studio Code
+         - Tickets. JIRA
+         - Power BI
+      
+      - Languages
+         - Spanish: Native
+         - English
+           - Reading/comprehension: Proficient
+           - Writing: Intermediate
+           - Speaking: Intermediate
 
 # Build settings
  #theme: modern-resume-theme (Use this is you are hosting your resume yourself)
