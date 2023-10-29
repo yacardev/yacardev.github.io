@@ -248,6 +248,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           Aprobado ciclo de Perfeccionamiento (B2+)
     
+  - title: Skills
+          Aprobado ciclo de Perfeccionamiento (B2+)
+    
   - title: Habilidades
     layout: text
     content: | #
@@ -286,6 +289,12 @@ content:
          - Inglés
            - Lectura/Comprensión: alta
            - Escritura: media
+           - Diálogo: media
+
+# Footer
+footer_show_references: true
+layout: text
+references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
            - Diálogo: media
 
 #English Page
