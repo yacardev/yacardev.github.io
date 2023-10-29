@@ -74,25 +74,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   Actualmente ejercitando Java Spring Boot. Realicé cursos de NodeJS con el framework Express.
 
-  
-# About Section EN
-about_title_eng: About Me
-about_profile_image: images/profile/profile-pic.JPG
-about_content_eng: | # this will include new lines to allow paragraphs
-  Computer Science Degreed.
-
-  I have been working as a ERP Oracle E-Business Software Developer since 2010. 
-
-  I have experience in both R12 and Cloud versions. During this time I have been developing and maintaining new and existing Oracle based applications such us concurrent request processes, OAF pages, configurations, personalizations, performance and so on which were defined to meet customers requirements and necessities.
-  
-  Furthermore, I am not only interested in Oracle's technologies stack. Consequently, I am a self-learning of Java Spring boot. 
-  
-  I prefer to be in touch with the backend development.
-
-# Footer
-footer_show_references: true
-layout: text
-references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
+  Como hobbies me gusta practicar Crossfit y tocar el bajo.
 
 #Spanish Page
 content:
@@ -247,10 +229,7 @@ content:
         #  Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Aprobado ciclo de Perfeccionamiento (B2+)
-    
-  - title: Skills
-          Aprobado ciclo de Perfeccionamiento (B2+)
-    
+   
   - title: Habilidades
     layout: text
     content: | #
@@ -291,14 +270,24 @@ content:
            - Escritura: media
            - Diálogo: media
 
-# Footer
-footer_show_references: true
-layout: text
-references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
-           - Diálogo: media
-
 #English Page
-content_eng:
+# About Section EN
+about_title_eng: About Me
+about_profile_image: images/profile/profile-pic.JPG
+about_content_eng: | # this will include new lines to allow paragraphs
+  Computer Science Degreed.
+
+  I have been working as a ERP Oracle E-Business Software Developer since 2010. 
+
+  I have experience in both R12 and Cloud versions. During this time I have been developing and maintaining new and existing Oracle based applications such us concurrent request processes, OAF pages, configurations, personalizations, performance and so on which were defined to meet customers requirements and necessities.
+  
+  Furthermore, I am not only interested in Oracle's technologies stack. Consequently, I am a self-learning of Java Spring boot. 
+  
+  I prefer to be in touch with the backend development.
+
+  As a hobbies I like to do Crossfit and play the bass guitar.
+
+content_eng: 
   - title: Experience
     layout: list
     content_eng:
@@ -461,6 +450,11 @@ content_eng:
            - Reading/comprehension: Proficient
            - Writing: Intermediate
            - Speaking: Intermediate
+
+# Footer
+footer_show_references: true
+layout: text
+references_title: Template by <a href="https://jekyllrb.com" target = "_blank">jekyllrb</a> - Hosted by <a href="https://github.com" target = "_blank">GitHub Pages</a>
 
 # Build settings
  #theme: modern-resume-theme (Use this is you are hosting your resume yourself)
