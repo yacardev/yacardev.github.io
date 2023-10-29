@@ -170,7 +170,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Oracle E-Business Suite Software Developer
           
-          - Staff interno del equipo de desarrollo para la aplicación Oracle E-Business Suite R-12
+          - Staff interno del equipo de desarrollo para Oracle E-Business Suite R-12
       - layout: left
         title: Axon Group Consulting
         sub_title: Software Developer
@@ -273,7 +273,7 @@ content:
 #English Page
 # About Section EN
 about_title_eng: About Me
-about_profile_image: images/profile/profile-pic.JPG
+about_profile_image_eng: images/profile/profile-pic.JPG
 about_content_eng: | # this will include new lines to allow paragraphs
   Computer Science Degreed.
 
