@@ -38,12 +38,12 @@ linkedin_username: matiasexelujan
 additional_links:
 - title: Abrir Curriculum Vitae
   icon: fas fa-file-pdf
-  url: yacardev.github.io/src/CV_Matias_Lujan_ESP.pdf
+  url: drive.google.com/file/d/1Ke-4TuVmd9zQQTtRpIvrx8hgDtU07D-c/view?usp=drive_link
 
 additional_links_eng:
 - title_eng: Open CV
   icon_eng: fas fa-file-pdf
-  url_eng: yacardev.github.io/src/CV_Matias_Lujan_ENG.pdf
+  url_eng: drive.google.com/file/d/1f1GkGmWiGV1MNhjuX6UiEZPfuq2Qy6xf/view?usp=drive_link
 
 language: language
 
@@ -279,11 +279,9 @@ about_content_eng: | # this will include new lines to allow paragraphs
 
   I have been working as a ERP Oracle E-Business Software Developer since 2010. 
 
-  I have experience in both R12 and Cloud versions. During this time I have been developing and maintaining new and existing Oracle based applications such us concurrent request processes, OAF pages, configurations, personalizations, performance and so on which were defined to meet customers requirements and necessities.
+  I have experience in both R12 and Cloud versions. During this time I have been developing and maintaining new and existing Oracle based applications such us concurrent request processes, OAF pages, configurations, personalizations, performance and so on.
   
-  Furthermore, I am not only interested in Oracle's technologies stack. Consequently, I am a self-learning of Java Spring boot. 
-  
-  I prefer to be in touch with the backend development.
+  I am not only interested in Oracle’s technologies stack, therefore I started to practice Java Spring boot.
 
   As a hobbies I like to do Crossfit and play the bass guitar.
 

@@ -1,0 +1,5 @@
+{
+    "redirects": [
+        { "source": "/index_eng", "destination": "https://yacardev.github.io/index_eng.html" }
+    ]
+}
